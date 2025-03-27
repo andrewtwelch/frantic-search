@@ -1,4 +1,4 @@
-import { Button, HStack, Textarea, VStack } from "@chakra-ui/react";
+import { Button, HStack, Textarea, VStack, Input } from "@chakra-ui/react";
 import { ChangeEvent, KeyboardEvent, useState } from "react";
 
 export type SearchBoxProps = {
@@ -36,7 +36,7 @@ const SearchBox: React.FC<SearchBoxProps> = ({ handleSearch }) => {
             <Textarea 
                 resize={"both"} 
                 width={["350px", "sm"]}
-                height="180px"
+                height="100px"
                 onKeyDown={handleKeyDown}
                 onChange={handleTextEntry}
                 placeholder={`Enter your decklist in the form "4 Snapcaster Mage"; card names must exactly match the printed card`}

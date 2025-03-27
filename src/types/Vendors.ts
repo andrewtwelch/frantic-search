@@ -94,8 +94,26 @@ export const BINDER_POS_VENDORS: Record<string, BinderPosBackendVendor> = {
     "good-games-pty.myshopify.com": {
         backend: VendorBackend.BINDER_POS,
         url: "good-games-pty.myshopify.com",
-        vendorUrl: "https://www.goodgamesnorth.com.au/",
+        vendorUrl: "https://www.goodgamesnorth.com.au",
         name: "Good Games North"
+    },
+    "cardhubaustralia.myshopify.com": {
+        backend: VendorBackend.BINDER_POS,
+        url: "cardhubaustralia.myshopify.com",
+        vendorUrl: "https://thecardhubaustralia.com.au",
+        name: "The Cardhub Australia"
+    },
+    "goodgamesmodbury.myshopify.com": {
+        backend: VendorBackend.BINDER_POS,
+        url: "goodgamesmodbury.myshopify.com",
+        vendorUrl: "https://ggmodbury.com.au",
+        name: "Good Games Modbury"
+    },
+    "dragons-lair-hobbies-games.myshopify.com": {
+        backend: VendorBackend.BINDER_POS,
+        url: "dragons-lair-hobbies-games.myshopify.com",
+        vendorUrl: "https://shuffled.com.au",
+        name: "Shuffled (Salisbury)"
     }
 }
 export const MTGMATE_VENDORS: Record<string, MtgMateVendor> = {
